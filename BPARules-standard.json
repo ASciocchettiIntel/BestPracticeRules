@@ -16,7 +16,7 @@
         "Category":  "DAX Expressions",
         "Description":  "Find many to many relationships based on ToCardinality and FromCardinality.",
         "Severity":  2,
-        "Scope":  "Table, DataColumn, CalculatedColumn",
+        "Scope":  "DataColumn",
         "Expression":  "Model.Relationships.Any(FromCardinality = 2 and ToCardinality = 2)",
         "CompatibilityLevel":  1200,
         "Source":  "standard\\DAX Expressions"
