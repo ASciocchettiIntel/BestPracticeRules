@@ -11,6 +11,17 @@
         "Source":  "standard\\DAX Expressions"
     },
     {
+        "ID":  "MANY_TO_MANY_RELATIONSHIPS",
+        "Name":  "Many to many relationships should be identified, modeling may be incorrect",
+        "Category":  "DAX Expressions",
+        "Description":  "Find many to many relationships based on ToCardinality and FromCardinality.",
+        "Severity":  2,
+        "Scope":  "Table, DataColumn, CalculatedColumn",
+        "Expression":  "Model.Relationships.Any(FromCardinality = 2 and ToCardinality = 2)",
+        "CompatibilityLevel":  1200,
+        "Source":  "standard\\DAX Expressions"
+    },
+    {
         "ID":  "DAX_DIVISION_COLUMNS",
         "Name":  "Avoid division (use DIVIDE function instead)",
         "Category":  "DAX Expressions",
